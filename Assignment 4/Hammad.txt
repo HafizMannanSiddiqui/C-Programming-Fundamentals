@@ -1,0 +1,314 @@
+void swap1(int array[1000][10], int& row_val, int& col_val, int& rowswap, int& colswap, int& swapdone, int& swapfail)
+{
+    if (rowswap > -1 && colswap > -1 && row_val > -1 && col_val > -1)
+    {
+        if ((row_val == rowswap && colswap == col_val + 1) || (row_val == rowswap && colswap == col_val - 1) || (col_val == colswap && rowswap == (row_val - 1)) || (col_val == colswap && rowswap == (row_val + 1)))
+        {
+            cout << "yes";
+            int swap = array[row_val][col_val];
+            array[row_val][col_val] = array[rowswap][colswap];
+            array[rowswap][colswap] = swap;
+            swapdone = 1;
+
+            if (swapdone == 1)
+            {
+                if ((array[row_val][col_val] == array[row_val + 1][col_val] && array[row_val][col_val] == array[row_val + 2][col_val])
+                    || (array[row_val][col_val] == array[row_val - 1][col_val] && array[row_val][col_val] == array[row_val - 2][col_val])
+                    || (array[row_val][col_val] == array[row_val + 1][col_val] && array[row_val][col_val] == array[row_val - 1][col_val])
+
+                    || (array[row_val][col_val] == array[row_val][col_val + 1] && array[row_val][col_val] == array[row_val][col_val + 2])
+                    || (array[row_val][col_val] == array[row_val][col_val - 1] && array[row_val][col_val] == array[row_val][col_val - 2])
+                    || (array[row_val][col_val] == array[row_val][col_val - 1] && array[row_val][col_val] == array[row_val][col_val + 1])
+
+                    || (array[rowswap][colswap] == array[rowswap + 1][colswap] && array[rowswap][colswap] == array[rowswap + 2][colswap])
+                    || (array[rowswap][colswap] == array[rowswap - 1][colswap] && array[rowswap][colswap] == array[rowswap - 2][colswap])
+                    || (array[rowswap][colswap] == array[rowswap + 1][colswap] && array[rowswap][colswap] == array[rowswap - 1][colswap])
+
+                    || (array[rowswap][colswap] == array[rowswap][colswap + 1] && array[rowswap][colswap] == array[rowswap][colswap + 2])
+                    || (array[rowswap][colswap] == array[rowswap][colswap - 1] && array[rowswap][colswap] == array[rowswap][colswap - 2])
+                    || (array[rowswap][colswap] == array[rowswap][colswap - 1] && array[rowswap][colswap] == array[rowswap][colswap + 1]))
+
+
+                {
+                    swapfail = 0;
+                }
+                else
+                {
+                    swapfail = 1;
+                    cout << "false";
+                    int temp = array[row_val][col_val];
+                    array[row_val][col_val] = array[rowswap][colswap];
+                    array[rowswap][colswap] = temp;
+
+                }
+
+            }
+            swapdone = 1;
+            row_val = -1; col_val = -1; rowswap = -1; colswap = -1;
+        }
+    }
+
+}
+
+
+
+
+void THREECANDIESCRUSH(int array[1000][10])
+{
+    for (int j = 0; j < 10; j++)
+    {
+        for (int i = 690; i < 700; i++)
+        {
+            if (array[i][j] == array[i + 1][j] && array[i][j] == array[i + 2][j])
+            {
+                array[i][j] = -8081;
+                array[i + 2][j] = -9091;
+                array[i + 1][j] = -1010;
+
+            }
+
+        }
+    }
+
+    for (int j = 690; j < 700; j++)
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            if (array[j][i] == array[j][i + 1] && array[j][i] == array[j][i + 2])
+            {
+                array[j][i] = -6780;
+                array[j][i + 1] = -5512;
+                array[j][i + 2] = -3313;
+
+            }
+
+        }
+    }
+
+
+}
+
+void func(int x, int y)
+{
+    cout << "olaalalalalal";
+}
+
+void intializing(int array[1000][10])
+{
+    for (int i = 0; i < 1000; i++)
+    {
+        for (int j = 0; j < 10; j++)
+        {
+            array[i][j] = rand() % 5;
+        }
+    }
+}
+
+
+
+void outputarray(int array[1000][10])
+{
+    for (int j = 0; j < 1000; j++)
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            cout << array[j][i] << " ";
+        }
+        cout << endl;
+    }
+
+}
+
+
+void INITIALSWAP(int array[1000][10])
+{
+    for (int i = 0; i < 10; i++)
+    {
+        for (int j = 1; j < 1000; j++)
+        {
+            if (array[j][i] < 0)
+            {
+                int temp = array[j][i];
+                array[j][i] = array[j - 1][i];
+                array[j - 1][i] = temp;
+            }
+        }
+    }
+}
+
+
+
+
+                        swap1(array, row_val, col_val, rowswap, colswap, swapdone, swapfail);
+
+                        /* if (frame6 == 24)
+                         {
+
+                         }*/
+
+                        if (swapdone == 1)
+                        {
+                            glow.setFillColor(Color::Transparent);
+                            swapdone = -1;
+                            glowclick = glowclick + 2;
+                            /* for (int i = 690; i < 712; i++)
+                             {
+                                 if (i == 699 || i == 710)cout << endl;
+                                 for (int j = 0; j < 10; j++)
+                                 {
+                                     cout << array[i][j] << " ";
+                                 }
+                                 cout << endl;
+                             }*/
+                        }
+
+
+
+                        if (frame == 50)
+                        {
+                            CandyMatchAndScore(array, ScoreAdded, TotalScore);
+                            cout << ScoreAdded;
+                            ssScore.str("");
+                            ssScore << ScoreAdded;
+                            Score.setString(ssScore.str());
+                            // CandyMatchAndScore(array, ScoreAdded, TotalScore);
+                        }
+                        //cout << "ScoreAdded" << ScoreAdded;
+
+
+                        frame++;
+                        if (frame > 50)
+                        {
+                            frame = 0;
+                        }
+
+
+                        if (frame2 == 20)
+                        {
+                            for (int i = 0; i < 10; i++)
+                            {
+                                for (int j = 1; j < 1000; j++)
+                                {
+                                    if (array[j][i] < 0)
+                                    {
+                                        int temp = array[j][i];
+                                        array[j][i] = array[j - 1][i];
+                                        array[j - 1][i] = temp;
+                                    }
+                                }
+                            }
+
+                        }
+                        frame2++;
+                        if (frame2 > 20)
+                        {
+                            frame2 = 0;
+                        }
+
+                        run = 1;
+                        frame4++;
+
+
+                        window2.draw(cursor);
+                        window2.draw(scoreboard);
+                        window2.draw(Score);
+                        window2.display();
+
+                    }
+
+                }
+
+                break;
+
+            }
+
+
+        }
+
+        float x = 0.01f;
+        float y = 0.01f;
+        window.clear();
+        window.draw(back1);
+        window.draw(playbutton);
+        window.display();
+    }
+
+
+    return 0;
+}
+
+
+
+
+class Button
+{
+public:
+    Button() { }
+    Button(string t, Vector2f size, int charSize, Color bgcolor, Color textcolor)
+    {
+        text.setString(t);
+        text.setColor(textcolor);
+        text.setCharacterSize(charSize);
+        button.setSize(size);
+        button.setFillColor(bgcolor);
+
+    }
+
+    void setFont(Font& font)
+    {
+        text.setFont(font);
+    }
+
+    void setBackColor(Color color)
+    {
+        button.setFillColor(color);
+    }
+
+    void setTextColor(Color color)
+    {
+        text.setColor(color);
+    }
+
+    void setPosition(Vector2f pos)
+    {
+        button.setPosition(pos);
+        float xPos = (pos.x + button.getLocalBounds().width / 2) - (text.getLocalBounds().width / 2);
+        float yPos = (pos.y + button.getLocalBounds().height / 2) - (text.getLocalBounds().height / 2);
+
+        text.setPosition({ xPos, yPos });
+
+    }
+
+    void drawTo(RenderWindow& window)
+    {
+        window.draw(button);
+        window.draw(text);
+    }
+
+    bool isMouseOver(RenderWindow& window)
+    {
+        float mouseX = Mouse::getPosition(window).x;
+        float mouseY = Mouse::getPosition(window).y;
+
+        float btnPosX = button.getPosition().x;
+        float btnPosY = button.getPosition().y;
+
+        float btnxPosWidth = button.getPosition().x + button.getLocalBounds().width;
+        float btnyPosHeight = button.getPosition().y + button.getLocalBounds().height;
+
+        if (mouseX < btnxPosWidth && mouseX > btnPosX && mouseY < btnyPosHeight && mouseY > btnPosY)
+        {
+            return true;
+        }
+        return false;
+    }
+
+
+
+private:
+    RectangleShape button;
+
+    Text text;
+
+};
+

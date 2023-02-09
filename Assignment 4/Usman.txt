@@ -1,0 +1,550 @@
+void clickingcandies(Button btn00, Button btn01, Button btn02, Button btn03, Button btn04, Button btn05, Button btn06,
+    Button btn07, Button btn08, Button btn09, Button btn10, Button btn11, Button btn12, Button btn13, Button btn14,
+    Button btn15, Button btn16, Button btn17, Button btn18, Button btn19, Button btn20, Button btn21, Button btn22,
+    Button btn23, Button btn24, Button btn25, Button btn26, Button btn27, Button btn28, Button btn29, Button btn30,
+    Button btn31, Button btn32, Button btn33, Button btn34, Button btn35, Button btn36, Button btn37, Button btn38,
+    Button btn39, Button btn40, Button btn41, Button btn42, Button btn43, Button btn44, Button btn45, Button btn46,
+    Button btn47, Button btn48, Button btn49, Button btn50, Button btn51, Button btn52, Button btn53, Button btn54,
+    Button btn55, Button btn56, Button btn57, Button btn58, Button btn59, Button btn60, Button btn61, Button btn62,
+    Button btn63, Button btn64, Button btn65, Button btn66, Button btn67, Button btn68, Button btn69, Button btn70,
+    Button btn71, Button btn72, Button btn73, Button btn74, Button btn75, Button btn76, Button btn77, Button btn78,
+    Button btn79, Button btn80, Button btn81, Button btn82, Button btn83, Button btn84, Button btn85, Button btn86,
+    Button btn87, Button btn88, Button btn89, Button btn90, Button btn91, Button btn92, Button btn93, Button btn94,
+    Button btn95, Button btn96, Button btn97, Button btn98, Button btn99, int count, int& row_val, int& col_val,
+    int& rowswap, int& colswap, RenderWindow& window)
+
+{
+    cout << "count=" << count << endl;
+
+    if (btn00.isMouseOver(window))
+    {
+
+        if (count % 2 != 0) { row_val = 700; col_val = 0; }
+        if (count % 2 == 0) { rowswap = 700; colswap = 0; }
+    }
+
+    if (btn01.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 700; col_val = 1; }
+        if (count % 2 == 0) { rowswap = 700; colswap = 1; }
+    }
+
+    if (btn02.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 700; col_val = 2; }
+        if (count % 2 == 0) { rowswap = 700; colswap = 2; }
+    }
+    if (btn03.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 700; col_val = 3; }
+        if (count % 2 == 0) { rowswap = 700; colswap = 3; }
+    }
+    if (btn04.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 700; col_val = 4; }
+        if (count % 2 == 0) { rowswap = 700; colswap = 4; }
+    }
+    if (btn05.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 700; col_val = 5; }
+        if (count % 2 == 0) { rowswap = 700; colswap = 5; }
+    }
+    if (btn06.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 700; col_val = 6; }
+        if (count % 2 == 0) { rowswap = 700; colswap = 6; }
+    }
+    if (btn07.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 700; col_val = 7; }
+        if (count % 2 == 0) { rowswap = 700; colswap = 7; }
+    }
+
+    if (btn08.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 700; col_val = 8; }
+        if (count % 2 == 0) { rowswap = 700; colswap = 8; }
+    }
+    if (btn09.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 700; col_val = 9; }
+        if (count % 2 == 0) { rowswap = 700; colswap = 9; }
+    }
+
+
+    if (btn10.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 701; col_val = 0; }
+        if (count % 2 == 0) { rowswap = 701; colswap = 0; }
+    }
+
+    if (btn11.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 701; col_val = 1; }
+        if (count % 2 == 0) { rowswap = 701; colswap = 1; }
+    }
+
+    if (btn12.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 701; col_val = 2; }
+        if (count % 2 == 0) { rowswap = 701; colswap = 2; }
+    }
+    if (btn13.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 701; col_val = 3; }
+        if (count % 2 == 0) { rowswap = 701; colswap = 3; }
+    }
+    if (btn14.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 701; col_val = 4; }
+        if (count % 2 == 0) { rowswap = 701; colswap = 4; }
+    }
+    if (btn15.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 701; col_val = 5; }
+        if (count % 2 == 0) { rowswap = 701; colswap = 5; }
+    }
+    if (btn16.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 701; col_val = 6; }
+        if (count % 2 == 0) { rowswap = 701; colswap = 6; }
+    }
+    if (btn17.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 701; col_val = 7; }
+        if (count % 2 == 0) { rowswap = 701; colswap = 7; }
+    }
+    if (btn18.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 701; col_val = 8; }
+        if (count % 2 == 0) { rowswap = 701; colswap = 8; }
+    }
+    if (btn19.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 701; col_val = 9; }
+        if (count % 2 == 0) { rowswap = 701; colswap = 9; }
+    }
+
+
+    if (btn20.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 702; col_val = 0; }
+        if (count % 2 == 0) { rowswap = 702; colswap = 0; }
+    }
+
+    if (btn21.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 702; col_val = 1; }
+        if (count % 2 == 0) { rowswap = 702; colswap = 1; }
+    }
+
+    if (btn22.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 702; col_val = 2; }
+        if (count % 2 == 0) { rowswap = 702; colswap = 2; }
+    }
+
+    if (btn23.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 702; col_val = 3; }
+        if (count % 2 == 0) { rowswap = 702; colswap = 3; }
+    }
+    if (btn24.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 702; col_val = 4; }
+        if (count % 2 == 0) { rowswap = 702; colswap = 4; }
+    }
+    if (btn25.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 702; col_val = 5; }
+        if (count % 2 == 0) { rowswap = 702; colswap = 5; }
+    }
+    if (btn26.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 702; col_val = 6; }
+        if (count % 2 == 0) { rowswap = 702; colswap = 6; }
+    }
+    if (btn27.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 702; col_val = 7; }
+        if (count % 2 == 0) { rowswap = 702; colswap = 7; }
+    }
+    if (btn28.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 702; col_val = 8; }
+        if (count % 2 == 0) { rowswap = 702; colswap = 8; }
+    }
+    if (btn29.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 702; col_val = 9; }
+        if (count % 2 == 0) { rowswap = 702; colswap = 9; }
+    }
+
+    if (btn30.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 703; col_val = 0; }
+        if (count % 2 == 0) { rowswap = 703; colswap = 0; }
+    }
+    if (btn31.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 703; col_val = 1; }
+        if (count % 2 == 0) { rowswap = 703; colswap = 1; }
+    }
+    if (btn32.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 703; col_val = 2; }
+        if (count % 2 == 0) { rowswap = 703; colswap = 2; }
+    }
+    if (btn33.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 703; col_val = 3; }
+        if (count % 2 == 0) { rowswap = 703; colswap = 3; }
+    }
+    if (btn34.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 703; col_val = 4; }
+        if (count % 2 == 0) { rowswap = 703; colswap = 4; }
+    }
+    if (btn35.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 703; col_val = 5; }
+        if (count % 2 == 0) { rowswap = 703; colswap = 5; }
+    }
+    if (btn36.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 703; col_val = 6; }
+        if (count % 2 == 0) { rowswap = 703; colswap = 6; }
+    }
+    if (btn37.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 703; col_val = 7; }
+        if (count % 2 == 0) { rowswap = 703; colswap = 7; }
+    }
+    if (btn38.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 703; col_val = 8; }
+        if (count % 2 == 0) { rowswap = 703; colswap = 8; }
+    }
+    if (btn39.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 703; col_val = 9; }
+        if (count % 2 == 0) { rowswap = 703; colswap = 9; }
+    }
+
+    if (btn40.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 704; col_val = 0; }
+        if (count % 2 == 0) { rowswap = 704; colswap = 0; }
+    }
+    if (btn41.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 704; col_val = 1; }
+        if (count % 2 == 0) { rowswap = 704; colswap = 1; }
+    }
+    if (btn42.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 704; col_val = 2; }
+        if (count % 2 == 0) { rowswap = 704; colswap = 2; }
+    }
+    if (btn43.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 704; col_val = 3; }
+        if (count % 2 == 0) { rowswap = 704; colswap = 3; }
+    }
+    if (btn44.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 704; col_val = 4; }
+        if (count % 2 == 0) { rowswap = 704; colswap = 4; }
+    }
+    if (btn45.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 704; col_val = 5; }
+        if (count % 2 == 0) { rowswap = 704; colswap = 5; }
+    }
+    if (btn46.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 704; col_val = 6; }
+        if (count % 2 == 0) { rowswap = 704; colswap = 6; }
+    }
+    if (btn47.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 704; col_val = 7; }
+        if (count % 2 == 0) { rowswap = 704; colswap = 7; }
+    }
+    if (btn48.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 704; col_val = 8; }
+        if (count % 2 == 0) { rowswap = 704; colswap = 8; }
+    }
+    if (btn49.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 704; col_val = 9; }
+        if (count % 2 == 0) { rowswap = 704; colswap = 9; }
+    }
+    if (btn50.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 705; col_val = 0; }
+        if (count % 2 == 0) { rowswap = 705; colswap = 0; }
+    }
+    if (btn51.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 705; col_val = 1; }
+        if (count % 2 == 0) { rowswap = 705; colswap = 1; }
+    }
+    if (btn52.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 705; col_val = 2; }
+        if (count % 2 == 0) { rowswap = 705; colswap = 2; }
+    }
+    if (btn53.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 705; col_val = 3; }
+        if (count % 2 == 0) { rowswap = 705; colswap = 3; }
+    }
+    if (btn54.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 705; col_val = 4; }
+        if (count % 2 == 0) { rowswap = 705; colswap = 4; }
+    }
+    if (btn55.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 705; col_val = 5; }
+        if (count % 2 == 0) { rowswap = 705; colswap = 5; }
+    }
+    if (btn56.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 705; col_val = 6; }
+        if (count % 2 == 0) { rowswap = 705; colswap = 6; }
+    }
+    if (btn57.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 705; col_val = 7; }
+        if (count % 2 == 0) { rowswap = 705; colswap = 7; }
+    }
+    if (btn58.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 705; col_val = 8; }
+        if (count % 2 == 0) { rowswap = 705; colswap = 8; }
+    }
+    if (btn59.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 705; col_val = 9; }
+        if (count % 2 == 0) { rowswap = 705; colswap = 9; }
+    }
+    if (btn60.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 706; col_val = 0; }
+        if (count % 2 == 0) { rowswap = 706; colswap = 0; }
+    }
+    if (btn61.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 706; col_val = 1; }
+        if (count % 2 == 0) { rowswap = 706; colswap = 1; }
+    }
+    if (btn62.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 706; col_val = 2; }
+        if (count % 2 == 0) { rowswap = 706; colswap = 2; }
+    }
+    if (btn63.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 706; col_val = 3; }
+        if (count % 2 == 0) { rowswap = 706; colswap = 3; }
+    }
+    if (btn64.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 706; col_val = 4; }
+        if (count % 2 == 0) { rowswap = 706; colswap = 4; }
+    }
+    if (btn65.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 706; col_val = 5; }
+        if (count % 2 == 0) { rowswap = 706; colswap = 5; }
+    }
+    if (btn66.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 706; col_val = 6; }
+        if (count % 2 == 0) { rowswap = 706; colswap = 6; }
+    }
+    if (btn67.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 706; col_val = 7; }
+        if (count % 2 == 0) { rowswap = 706; colswap = 7; }
+    }
+    if (btn68.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 706; col_val = 8; }
+        if (count % 2 == 0) { rowswap = 706; colswap = 8; }
+    }
+
+    if (btn69.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 706; col_val = 9; }
+        if (count % 2 == 0) { rowswap = 706; colswap = 9; }
+    }
+
+    if (btn70.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 707; col_val = 0; }
+        if (count % 2 == 0) { rowswap = 707; colswap = 0; }
+    }
+
+
+    if (btn71.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 707; col_val = 1; }
+        if (count % 2 == 0) { rowswap = 707; colswap = 1; }
+    }
+
+    if (btn72.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 707; col_val = 2; }
+        if (count % 2 == 0) { rowswap = 707; colswap = 2; }
+    }
+
+    if (btn73.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 707; col_val = 3; }
+        if (count % 2 == 0) { rowswap = 707; colswap = 3; }
+    }
+    if (btn74.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 707; col_val = 4; }
+        if (count % 2 == 0) { rowswap = 707; colswap = 4; }
+    }
+
+    if (btn75.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 707; col_val = 5; }
+        if (count % 2 == 0) { rowswap = 707; colswap = 5; }
+    }
+    if (btn76.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 707; col_val = 6; }
+        if (count % 2 == 0) { rowswap = 707; colswap = 6; }
+    }
+
+    if (btn77.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 707; col_val = 7; }
+        if (count % 2 == 0) { rowswap = 707; colswap = 7; }
+    }
+
+    if (btn78.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 707; col_val = 8; }
+        if (count % 2 == 0) { rowswap = 707; colswap = 8; }
+    }
+
+    if (btn79.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 707; col_val = 9; }
+        if (count % 2 == 0) { rowswap = 707; colswap = 9; }
+    }
+    if (btn80.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 708; col_val = 0; }
+        if (count % 2 == 0) { rowswap = 708; colswap = 0; }
+    }
+    if (btn81.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 708; col_val = 1; }
+        if (count % 2 == 0) { rowswap = 708; colswap = 1; }
+    }
+    if (btn82.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 708; col_val = 2; }
+        if (count % 2 == 0) { rowswap = 708; colswap = 2; }
+    }
+    if (btn83.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 708; col_val = 3; }
+        if (count % 2 == 0) { rowswap = 708; colswap = 3; }
+    }
+    if (btn84.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 708; col_val = 4; }
+        if (count % 2 == 0) { rowswap = 708; colswap = 4; }
+    }
+    if (btn85.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 708; col_val = 5; }
+        if (count % 2 == 0) { rowswap = 708; colswap = 5; }
+    }
+    if (btn86.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 708; col_val = 6; }
+        if (count % 2 == 0) { rowswap = 708; colswap = 6; }
+    }
+    if (btn87.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 708; col_val = 7; }
+        if (count % 2 == 0) { rowswap = 708; colswap = 7; }
+    }
+    if (btn88.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 708; col_val = 8; }
+        if (count % 2 == 0) { rowswap = 708; colswap = 8; }
+    }
+    if (btn88.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 708; col_val = 8; }
+        if (count % 2 == 0) { rowswap = 708; colswap = 8; }
+    }
+    if (btn89.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 708; col_val = 9; }
+        if (count % 2 == 0) { rowswap = 708; colswap = 9; }
+    }
+    if (btn90.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 709; col_val = 0; }
+        if (count % 2 == 0) { rowswap = 709; colswap = 0; }
+    }
+    if (btn91.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 709; col_val = 1; }
+        if (count % 2 == 0) { rowswap = 709; colswap = 1; }
+    }
+    if (btn92.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 709; col_val = 2; }
+        if (count % 2 == 0) { rowswap = 709; colswap = 2; }
+    }
+    if (btn93.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 709; col_val = 3; }
+        if (count % 2 == 0) { rowswap = 709; colswap = 3; }
+    }
+    if (btn94.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 709; col_val = 4; }
+        if (count % 2 == 0) { rowswap = 709; colswap = 4; }
+    }
+    if (btn95.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 709; col_val = 5; }
+        if (count % 2 == 0) { rowswap = 709; colswap = 5; }
+    }
+    if (btn96.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 709; col_val = 6; }
+        if (count % 2 == 0) { rowswap = 709; colswap = 6; }
+    }
+    if (btn97.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 709; col_val = 7; }
+        if (count % 2 == 0) { rowswap = 709; colswap = 7; }
+    }
+    if (btn98.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 709; col_val = 8; }
+        if (count % 2 == 0) { rowswap = 709; colswap = 8; }
+    }
+    if (btn99.isMouseOver(window))
+    {
+        if (count % 2 != 0) { row_val = 709; col_val = 9; }
+        if (count % 2 == 0) { rowswap = 709; colswap = 9; }
+    }
+
+}
